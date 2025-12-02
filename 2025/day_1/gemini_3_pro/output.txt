@@ -1,0 +1,13 @@
+Script started on Tue Dec  2 09:56:26 2025
+MacOS: ZSH path set: /Users/dsharp/.oh-my-zsh ...
+MacOS: setting up RBENV...
+[1m[7m%[27m[1m[0m                                                                                                                                   ]2;dsharp@Dans-WB-Laptop: ~/Code/advent_of_code/2025/day_1/gemini_3_pro]1;../gemini_3_pro[0m[27m[24m[J🕓  [38;5;079m9:56:27[38;5;167m[00m [38;5;167m[[38;5;167m3.3.6[38;5;167m][00m [33m~/Code/advent_of_code/2025/day_1/gemini_3_pro [37m([32m7m[00m[37m¦[00m[36mmain[00m|[38;5;171mA4[00m[31m●[00m[37m) [31m✗ 
+[33m♯ [00m[K[?1h=[?2004hppart    rruby part1.rb[?1l>[?2004l
+]2;ruby part1.rb]1;rubyPart 1 Solution: 1139
+[1m[7m%[27m[1m[0m                                                                                                                                   ]2;dsharp@Dans-WB-Laptop: ~/Code/advent_of_code/2025/day_1/gemini_3_pro]1;../gemini_3_pro[0m[27m[24m[J🕓  [38;5;079m9:56:31[38;5;167m[00m [38;5;167m[[38;5;167m3.3.6[38;5;167m][00m [33m~/Code/advent_of_code/2025/day_1/gemini_3_pro [37m([32m7m[00m[37m¦[00m[36mmain[00m|[38;5;171mA4[00m[31m●[00m[37m) [31m✗ 
+[33m♯ [00m[K[?1h=[?2004hrruby part2.rb[?1l>[?2004l
+]2;ruby part2.rb]1;rubyPart 1 Solution: 1139. Part 2 Solution: 6684
+[1m[7m%[27m[1m[0m                                                                                                                                   ]2;dsharp@Dans-WB-Laptop: ~/Code/advent_of_code/2025/day_1/gemini_3_pro]1;../gemini_3_pro[0m[27m[24m[J🕓  [38;5;079m9:56:34[38;5;167m[00m [38;5;167m[[38;5;167m3.3.6[38;5;167m][00m [33m~/Code/advent_of_code/2025/day_1/gemini_3_pro [37m([32m8m[00m[37m¦[00m[36mmain[00m|[38;5;171mA4[00m[31m●[00m[37m) [31m✗ 
+[33m♯ [00m[K[?1h=[?2004h[?2004l
+
+Script done on Tue Dec  2 09:56:35 2025
