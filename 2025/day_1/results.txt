@@ -1,0 +1,5 @@
+Day 1 solutions:
+
+Part 1: 1139
+Part 2: 6684
+Part 2 fail: 6676 (not sure why)
