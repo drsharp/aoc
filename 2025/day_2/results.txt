@@ -1,0 +1,4 @@
+Day 2 solutions:
+
+Part 1: 24043483400
+Part 2: 38262920235
