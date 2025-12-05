@@ -1,0 +1,6 @@
+Day 5 solutions:
+
+Part 1 first pass: too slow. Need faster approach
+Part 1, second pass: Solution for Day 5, Part 1: 601
+Part 2: still tooy slow with Ranges... actually crashed my computer
+Part 2: second pass: Solution for Day 5, Part 1: 367899984917516
