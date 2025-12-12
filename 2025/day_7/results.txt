@@ -1,0 +1,7 @@
+Day 7 solutions:
+
+Part 1: Solution for Day 7, Part 1: 885 <- too low
+Part 1 Again: Solution for Day 7, Part 1: 1490
+Part 2: Solution for Day 7, Part 2: 3806264447357
+
+NOTE: I had ChatGPT try it and it got the correct answer. It gave me the clue that instead of storing ALL the beams, just store a count of the beams at a given column.
