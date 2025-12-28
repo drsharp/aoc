@@ -1,0 +1,10 @@
+Day 9 solutions:
+
+Part 1: Solution for Day 9, Part 1: 4741451444
+Part 2: Solution for Day 9, Part 2: I gave up. I just couldn't quite wrap my brain around the mechanism
+So I asked DeepSeek to help me understand it and it involved polygon math and ray tracing algorithms. I just let it solve it.
+Deep seek and chatGPT couldn't do it fast enough
+I asked Claude to help me understand what my approach was doing wrong, then askied Claude to just solve it. Claude did and it ran in under 30 seconds
+
+Solution for Day 9, Part 2: 1562459680
+Best rectangle corners: [[5939, 67789], [94553, 50158]]
