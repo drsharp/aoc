@@ -1,0 +1,40 @@
+Day 10 solutions:
+
+Solution for Day 10, Part 1: 401
+I was able to program this brute-forced: try all possible combos, starting from 1 button presses, then 2 buttons, then 3, etc.
+
+Solution for Day 10, Part 2: 15017
+I coded this as an extension of the brute-force method, but there's no way it will work on the input. it'll take too long.
+I then asked Claude for strategies and it recommended some strategies:
+* It couldn't get the ruby-cbc gem to work, so it tried a manual code option. It ran too long so it switched to GLPK which ran very fast.
+------------------------------------
+
+This is a great problem! Part 2 transforms from a binary toggle problem (mod 2) to an integer linear optimization problem. Let me break down why brute force fails and suggest approaches:
+Why Brute Force Fails
+In Part 1, each button press either matters once or not at all (since toggling twice = no change). So you only have 2^n combinations for n buttons. In Part 2, target values can be 10, 12, etc. With multiple buttons each potentially pressed many times, the search space explodes exponentially.
+Mathematical Framing
+This is actually a classic Integer Linear Programming (ILP) problem:
+
+Given:
+  - x_i = number of times button i is pressed
+  - Each button is a vector showing which counters it affects
+  - Target vector t = {3,5,4,7}
+
+Find:
+  - Non-negative integers x_i such that sum of button effects = target
+  - Minimize total presses: sum(x_i)
+Suggested Approaches
+Option 1: Use an ILP Solver (cleanest)
+Ruby gems like ruby-cbc or rglpk can solve this directly
+You set up the constraint matrix and objective function, solver does the rest
+Guaranteed optimal solution
+Option 2: Greedy + Constraint Satisfaction
+Observe that buttons covering more counters are "cheaper" per increment
+Build up solution greedily, then adjust with single-counter buttons
+May not always find optimal, but often works for AoC inputs
+Option 3: BFS on State Space
+State = current counter values
+Explore from (0,0,0,...) toward target
+Works if target values are small (say < 20)
+Could optimize with A* using "remaining sum / max button coverage" as heuristic
+My Recommendation: Start with Option 1 (ILP) since it's mathematically correct and the implementation is straightforward once you have the gem installed. It's the "right" tool for this type of problem. Want me to implement the ILP approach, or would you prefer to try a different strategy?
