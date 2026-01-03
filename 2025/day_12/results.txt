@@ -1,0 +1,7 @@
+Day 12 solutions:
+
+Part 1: 492
+There is no part 2. It's all done!
+
+I didn't even try this time. I just let Claude do it.
+Interestingly, Claude parsed the file wrong at first, but noticed and corrected it.
