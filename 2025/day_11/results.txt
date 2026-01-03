@@ -1,0 +1,9 @@
+Day 11 solutions:
+
+Solution for Day 11, Part 2: 2
+Solution for Day 11, Part 2: 319473830844560
+
+I tried to do this but my recursive solution was too intensive and wouldn't have finished in time.
+Claude did a memoized, enumerated solution that was immediate.
+
+Also for part 2: 39 trillion paths but it ran in seconds
